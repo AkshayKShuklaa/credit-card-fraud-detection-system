@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8080/api',
+  baseURL: 'https://credit-card-fraud-detection-system-1-2f29.onrender.com',
 });
 
 api.interceptors.request.use((config) => {
